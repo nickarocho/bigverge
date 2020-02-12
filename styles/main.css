@@ -27,8 +27,16 @@ h1 {
 h2 {
   font-family: 'Francois One', sans-serif;
   text-transform: uppercase;
-  padding-top: 3em;
+  padding-top: 2em;
   font-size: 1.7em;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  margin-top: 2em;
 }
 
 .light {
