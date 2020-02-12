@@ -1,18 +1,27 @@
 body {
   background: #333;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+main {
   height: 100vh;
   max-height: 100vh;
   text-align: center;
 }
 
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 h1 {
   font-size: 100px;
   /* font-family: 'Sedgwick Ave', cursive; */
-  font-family: 'Condiment', cursive;
+  font-family: 'Condiment', sans-serif;
   /* font-family: 'Dr Sugiyama', cursive; */
   text-shadow: 5px 5px 20px rgba(0,0,0,0.8);
 }
